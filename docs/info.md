@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Works as a Universal Shift Regsiter. Holds the value if 'mode == 0', shifts right if 'mode == 1', shifts left if 'mode == 2' and loads the parallel input to the registers if 'mode == 3'. Also has a 8-bit parallel output.
 
 ## How to test
 
-Explain how to use your project
+Can be used for the shifting applications. Can act as both left and right shifter. The parallel load and read feature provides the flexibility in use cases.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The inputs parallelIn, serialIn_left and serialIn_right can be fed through the slide switches. The outputs can be observed through a series of LEDs.
