@@ -60,7 +60,7 @@ module universalShiftRegister (
     input clk, reset, serialIn_left, serialIn_right,
     input [7:0] parallelIn,
     input [1:0] mode,
-    output wire [7:0] parallelOut,
+    output wire [7:0] parallelOut
 );
     reg [7:0] register;
     
